@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import React from 'react';
 import {FiDownload} from "react-icons/fi";
 import Work from './work/page';
+import Link from 'next/link';
 
 function Home() {
   return (
@@ -16,8 +17,8 @@ function Home() {
           <div className='text-center xl:text-left order-2 xl:order-none'>
              <span className='text-xl' >Software Engineer</span>
              <h1 className='text-4xl mb-6' style={{
-          animation: "blink 2s infinite",
-        }}>Hello I`am <br /><span className='text-accent' > Vanmali Deshani</span></h1>
+               animation: "blink 2s infinite",
+              }}>Hello I`am <br /><span className='text-accent' > Vanmali Deshani</span></h1>
              <p className='max-w-[500px] mb-9 text-white/88'>I excel at crafting elegant digital experiences and I am proficient in various programming languages
               and technologies
              </p>
@@ -28,7 +29,9 @@ function Home() {
                className="uppercase flex items-center gap-2"
                
                >
-                <span>Download CV </span>
+                <Link href="/assets/CV_Vanmali_Deshani.pdf" download target="_blank">
+                <span>Download CV</span>
+              </Link>
                 <FiDownload className='text-xl'/>
               </Button>
               <div className='mb-8 xl:mb-0'>

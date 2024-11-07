@@ -5,6 +5,7 @@ import {JetBrains_Mono} from "next/font/google";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import Image from "next/image";
 
 const jetBrainsMono=JetBrains_Mono({
   subsets:['latin'],
@@ -21,10 +22,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Favicon link */}
+        <link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
+      </head>
       <body
         className={`${jetBrainsMono.variable}`}
       >
         <Header/>
+        
         <StairTransition/>
         <PageTransition>
         {children}
