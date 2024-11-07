@@ -16,6 +16,9 @@ const jetBrainsMono=JetBrains_Mono({
 
 export const metadata = {
   title: "Vanmali",
+  // icons: {
+  //   icon: "/assets/favicon.ico",  // reference to the icon path
+  // },
   description: "Reactjs,Full Stack Development,Frontend ,Backend,Website Development,App Development,Angular Js Development",
 };
 
@@ -23,8 +26,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Favicon link */}
-        <link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
+        {/* Favicon link */}       
+        <link rel="icon" href="/assets/favicon.ico" type="image/png" />
+        <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
       </head>
       <body
         className={`${jetBrainsMono.variable}`}
