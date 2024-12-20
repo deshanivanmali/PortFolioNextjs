@@ -144,7 +144,7 @@ const allProjects=[
       {name:"ElectronJs"},
     ],    
     image:"/assets/work/thumb1.png",
-    live:'https://www.xenett.com/',
+    live:'#',
     github:"",
     description:`Its a desktop application work same as like a top time tracker.My role on this project is Frontend
       developer`
