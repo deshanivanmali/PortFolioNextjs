@@ -139,9 +139,9 @@ const allProjects=[
     category:'Desktop',
     title:'Neo Staff',
     stack:[
-      {name:"Angular 18"},
-      {name:"Node Js"},
-      {name:"Electron Js"},
+      {name:"VueJs"},
+      {name:"Flutter"},
+      {name:"ElectronJs"},
     ],    
     image:"/assets/work/thumb1.png",
     live:'https://www.xenett.com/',
