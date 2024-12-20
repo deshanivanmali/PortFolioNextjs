@@ -141,6 +141,7 @@ const allProjects=[
     stack:[
       {name:"Angular 18"},
       {name:"Node Js"},
+      {name:"Electron Js"},
     ],    
     image:"/assets/work/thumb1.png",
     live:'https://www.xenett.com/',
