@@ -42,11 +42,11 @@ const allProjects=[
     image:"/assets/work/campusHire.jpg",
     live:'https://app.campushire.net/',
     github:"",
-    description:`it is a plate form to learn technologies buy course from the plate form. Check ability by assessment to
+    description:`it is a platform to learn technologies buy course from the platform. Check ability by assessment to
               take quiz and produce result as per the student output also.There are many roles like admin, student,
               author, instructot.
               it is the process of recruiting students studying in universities and colleges for jobs in the company. The
-              program is usually conducted with the universities/colleges to identify pote`
+              program is usually conducted with the universities/colleges to identify potential student`
   },
   {
     num:'03',
