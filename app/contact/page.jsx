@@ -14,6 +14,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+import { RiTeamFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
@@ -36,6 +37,11 @@ const info = [
     description:
       "Near Bus Stand Main Road,Dis:Amerli,Timbi-362730,Gujrat,India",
   },
+  {
+     icon: <RiTeamFill />,
+    title:"Team",
+    description:"infodeshanivanmali@gmail.com"
+  }
 ];
 
 // Validation Schema using Yup

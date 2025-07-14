@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 
 import {
- SiTailwindcss,SiNextdotjs,SiNestjs,SiElectron,SiExpress
+ SiTailwindcss,SiNextdotjs,SiNestjs,SiElectron,SiExpress,SiNuxtdotjs
 } from "react-icons/si";
 
 //components
@@ -32,10 +32,14 @@ const about={
       fieldName:"Name",
       filedValue:"Vanmali Deshani"
     }, 
+    // {
+    //   fieldName:"Skype",
+    //   filedValue:"live:.cid.8a7641d0fc52dbf8"
+    // },  
     {
-      fieldName:"Skype",
-      filedValue:"live:.cid.8a7641d0fc52dbf8"
-    },   
+      fieldName:"Team",
+      filedValue:"infodeshanivanmali@gmail.com"
+    },
     {
       fieldName:"Mobile",
       filedValue:"(+91)9408316491"
@@ -150,6 +154,10 @@ const skills={
   {
     icon:<SiNextdotjs/>,
     name:"next.js"
+  },
+   {
+    icon:<SiNuxtdotjs />,
+    name:"nuxt.js"
   },
  
   {
