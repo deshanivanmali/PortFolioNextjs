@@ -16,9 +16,9 @@ const jetBrainsMono=JetBrains_Mono({
 
 export const metadata = {
   title: "Vanmali",
-  // icons: {
-  //   icon: "/assets/favicon.ico",  // reference to the icon path
-  // },
+  icons: {
+    icon: "/assets/favicon.ico",  // reference to the icon path
+  },
   description: "Reactjs,Full Stack Development,Frontend ,Backend,Website Development,App Development,Angular Js Development",
 };
 
