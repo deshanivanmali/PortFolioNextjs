@@ -29,7 +29,7 @@ function Home() {
                className="uppercase flex items-center gap-2"
                
                >
-                <Link href="/assets/CV_Vanmali_Deshani.pdf" download target="_blank">
+                <Link href="/assets/Deshani_Vanmali.pdf" download target="_blank">
                 <span>Download CV</span>
               </Link>
                 <FiDownload className='text-xl'/>
