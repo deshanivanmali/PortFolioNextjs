@@ -30,7 +30,7 @@ const allProjects=[
     github:""
   },
   {
-    num:'01',
+    num:'02',
     category:'frontend',
     title:'Brahman Connect(Ongoing)',
     description:`BConnect is a hyperlocal service aggregation platform designed to connect citizens with spiritual and religious service providers such as Temples, Pooja Stores, and Poojaris. The application enables users to discover and request services, sevas, items, and prasadas offered by nearby partners based on location proximity.`,
@@ -45,7 +45,7 @@ const allProjects=[
     github:""
   },
   {
-    num:'02',
+    num:'03',
     category:'frontend',
     title:'Campur Hire',
     stack:[
@@ -64,7 +64,7 @@ const allProjects=[
               program is usually conducted with the universities/colleges to identify potential student`
   },
   {
-    num:'03',
+    num:'04',
     category:'fullstack',
     title:'WorkerNaka',
     stack:[
@@ -81,7 +81,7 @@ const allProjects=[
           worker get the offer by sms and they also repose with reply by sms`
   },
   {
-    num:'04',
+    num:'05',
     category:'frontend',
     title:'RozgarSarthi',
     stack:[
@@ -95,7 +95,7 @@ const allProjects=[
         government jobs for Persons with Disabilities (PwD’s).My role on this project is An AngularJs Developer.`
   },
   {
-    num:'05',
+    num:'06',
     category:'frontend',
     title:'Sarthak India',
     stack:[
@@ -109,7 +109,7 @@ const allProjects=[
         government jobs for Persons with Disabilities (PwD’s).My role on this project is An AngularJs Developer.`
   },
   {
-    num:'06',
+    num:'07',
     category:'frontend',
     title:'Apply Insure',
     stack:[
@@ -123,7 +123,7 @@ const allProjects=[
        My role on this project is a Frontend Developer`
   },
   {
-    num:'07',
+    num:'08',
     category:'frontend',
     title:'Next Care',
     stack:[
@@ -137,7 +137,7 @@ const allProjects=[
        is Fronted developer`
   },
   {
-    num:'08',
+    num:'09',
     category:'frontend',
     title:'Xenett',
     stack:[
@@ -150,7 +150,7 @@ const allProjects=[
     description:`Xenett is a smart cleanup tool that auto-detects errors and helps close the books efficiently while collaborating with your teammates and clients.`
   },
   {
-    num:'09',
+    num:'10',
     category:'Desktop',
     title:'Neo Staff',
     stack:[
