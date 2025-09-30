@@ -40,7 +40,7 @@ const allProjects=[
       {name:"Material UI"},
        {name:"Tailwind CSS"},
     ],    
-    image:"/assets/work/b-connect.jpg",
+    image:"/assets/work/b-connect-0.png",
     live:'#',
     github:""
   },
