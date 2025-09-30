@@ -10,11 +10,11 @@ import {
   FaNodeJs,
   FaReact,
   FaAngular,
-  SiMongodb 
+  
 } from "react-icons/fa";
 
 import {
- SiTailwindcss,SiNextdotjs,SiNestjs,SiElectron,SiExpress,SiNuxtdotjs
+ SiTailwindcss,SiNextdotjs,SiNestjs,SiElectron,SiExpress,SiNuxtdotjs,SiMongodb
 } from "react-icons/si";
 
 //components
