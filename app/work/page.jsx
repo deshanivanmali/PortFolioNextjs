@@ -30,6 +30,21 @@ const allProjects=[
     github:""
   },
   {
+    num:'01',
+    category:'frontend',
+    title:'Brahman Connect(Ongoing)',
+    description:`BConnect is a hyperlocal service aggregation platform designed to connect citizens with spiritual and religious service providers such as Temples, Pooja Stores, and Poojaris. The application enables users to discover and request services, sevas, items, and prasadas offered by nearby partners based on location proximity.`,
+    stack:[
+      {name:"React Js"},
+      {name:"Java"},
+      {name:"Material UI"},
+       {name:"Tailwind CSS"},
+    ],    
+    image:"/assets/work/b-connect.jpg",
+    live:'#',
+    github:""
+  },
+  {
     num:'02',
     category:'frontend',
     title:'Campur Hire',

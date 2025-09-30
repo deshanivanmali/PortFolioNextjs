@@ -9,7 +9,8 @@ import {
   FaFigma,
   FaNodeJs,
   FaReact,
-  FaAngular
+  FaAngular,
+  SiMongodb 
 } from "react-icons/fa";
 
 import {
@@ -199,6 +200,10 @@ const skills={
   {
     icon:<FaFigma/>,
     name:"figma"
+  },
+  {
+    icon:<SiMongodb />,
+    name:"MongoDB"
   }
 ]
 }
